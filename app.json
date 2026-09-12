@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "reproducer-expo-fetch",
-    "slug": "reproducer-expo-fetch",
+    "name": "reproducer-expo",
+    "slug": "reproducer-expo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mifi.reproducerexpofetch"
     },
     "android": {
       "adaptiveIcon": {
@@ -19,6 +20,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "newArchEnabled": true
   }
 }
