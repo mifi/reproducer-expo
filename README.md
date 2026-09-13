@@ -4,7 +4,7 @@ Reproduces: `expo/fetch` never settles when the server sends a truncated HTTP
 response and closes the socket while the request body is still uploading (iOS,
 development build).
 
-Created with `npx create-expo-app@latest --template blank@sdk-56`, plus
+Created with `npx create-expo-app@latest --template blank@sdk-56`, then upgraded to SDK 57, plus
 `expo-dev-client` (the bug was observed in a development build) and
 `expo-file-system` (for the comparison upload that does surface the failure).
 
